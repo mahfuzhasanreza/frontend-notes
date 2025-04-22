@@ -16,6 +16,10 @@
             padding-left: 20px;
             margin-bottom: 20px;
         }
+
+        .bold{
+            font-weight: bold;
+        }
     </style>
 </head>
 
@@ -126,6 +130,170 @@
         <p>VSCode: !</p>
         <p>favicon</p>
     </div>
+
+    <h1>css: Cascading Style Sheets</h1>
+
+    <div class="box">
+        <h2 class="red">syntax</h2>
+
+        <p class="bold">selector { property: value; }</p>
+    </div>
+
+    <div class="box">
+        <h2 class="red">types of css</h2>
+
+        <p class="bold">Inline</p>
+        <p class="bold">Internal/Embedded</p>
+        <p class="bold">External</p>
+    </div>
+
+    <div class="box">
+        <h2 class="red">CSS selectors</h2>
+
+        <p>id = #</p>
+        <p>class = .</p>
+        <p>element</p>
+        <p class="bold">attribute</p>
+    </div>
+
+    <div class="box">
+            <h2 class="red">Relative Unit</h2>
+
+            <p>px: 1/96th of 1in</p>
+
+            <h2 class="red">Relative/Comparative Unit</h2>
+
+            <p>vh: 1% of the viewport height</p>
+            <p>vw: 1% of the viewport width</p>
+            <p>em: relative to the font-size of the element (2em means 2 times the sie of the current font)</p>
+            <p>rem: relative to the font-size of the root element (html)</p>
+            <p>vmin: 1% of the viewport's smaller dimension (height or width)</p>
+            <p>vmax: 1% of the viewport's larger dimension (height or width)</p>
+            <p>%: relative to the parent element</p>
+    </div>
+
+
+    <div class="box">
+        <h2 class="red">CSS Selectors</h2>
+
+        <p>Universal selector: * (selects all elements)</p>
+        <p>Type/Tag/Element selector: p, h1, h2, etc. (selects all elements of that type)</p>
+        <p>Class selector: .classname (selects all elements with that class)</p>
+        <p>ID selector: #idname (selects the element with that ID)</p>
+        <p>Attribute selector: [attribute] (selects elements with that attribute) ( example: input[required]{} )</p>
+        <p>Child selector: parent > child (selects all direct child elements of a parent)</p>
+        <p>Grouping Selector: p,h1{}</p>
+
+        <h2 class="red">font-size</h2>
+        <p>
+            400 = normal
+            <br>
+            700 = bold
+            <br>
+            900 = bolder
+        </p>
+
+        <p class="bold">One element not allow more than 1 id</p>
+        <p>One page not allow same id name</p>
+    </div>
+
+
+    <div class="box">
+        <h2 class="red">CSS Margin, Padding, Height</h2>
+
+        <p>margin: - (each side)</p>
+        <p>margin: - - (top-bottom, right-left)</p>
+        <p>margin: - - - (top, right-left, bottom)</p>
+        <p>margin: - - - - (top, right, bottom, left) [Clockwise]</p>
+        <p>padding: same as margin</p>
+        <br>
+        <p>
+            max-height: maximum height but can be decreased
+            <br>
+            min-height: minimum height but can be increased
+        </p>
+    </div>
+
+    <div class="box">
+        <h2 class="red">CSS Box model</h2>
+
+        <p class="bold">Box define (size depend on):
+            <br>
+            1. content <br>
+            2. border <br>
+            3. padding <br>
+            4. margin <br>
+            <br>
+            5. width and height (additional)
+        </p>
+    </div>
+
+    <div class="box">
+        <h2 class="red">CSS Display none, hidden, box-shadow</h2>
+
+        <p class="bold">
+            Hide:
+            <br>
+            display: none; (remove the space)
+            <br>
+            visibility: hidden; (not remove the space)
+        </p>
+
+        <p>
+            Box shadow (use margin when box shadow use):
+            <br>
+            box-shadow: - - (x-axis, y-axis) (solid color)
+            <br>
+            box-shadow: - - - (x-axis, y-axis, blur)
+            <br>
+            box-shadow: - - - color (x-axis, y-axis, blur, color)
+            <br>
+            box-shadow: - - - - color (x-axis, y-axis, blur, spread, color)
+        </p>
+
+        <p class="bold">
+            when inline element (such span): height and width not work and margin only work on left and right
+            <br>
+            for inline element: first do display: block; before set height and width or margin
+            <br>
+            another one can use: display: inline-block; (inline but block behavior)
+            <br>
+            when block element (such div): height and width work
+        </p>
+    </div>
+    
+
+    <div class="box">
+        <h2 class="red">CSS Image</h2>
+
+        <p>
+            background-image: url('image.jpg') (path to the image)
+            <br>
+            background-size: cover (fit the image to the container by increasing the size of the image)
+            <br>
+            background-size: contain (fit the image to the container but maintain aspect ratio)
+            <br>
+            background-repeat: no-repeat (no repeat), repeat-x (repeat horizontally), repeat-y (repeat vertically)
+            <br>
+            background-position: center (center the image), top (top), left top (top left) etc
+        </p>
+    </div>
+
+
+    <div class="box">
+        <h2 class="red">CSS Color</h2>
+
+        <p>
+            Color Name: red, blue, green, etc.
+            <br>
+            Hex code: #RRGGBB (example: #FF5733)
+            <br>
+            Decimal code (RGB): rgb(255, 87, 51) (example: rgb(255, 87, 51))
+            <br>
+            RGBA (A: opacity): rgba(255, 87, 51, 0.5) (example: rgba(255, 87, 51, 0.5))
+        </p>
+    </div>
+
 </body>
 
 </html>
