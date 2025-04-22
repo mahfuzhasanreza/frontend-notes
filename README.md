@@ -4,7 +4,6 @@
 
 ## html: hypertext markup language
 
----
 
 ### 🟥 tag:
 - `p`, `small`, `h1-h6`
