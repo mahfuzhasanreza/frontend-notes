@@ -220,3 +220,60 @@ background-position: left top;
 - **Hex**: `#RRGGBB` (e.g., `#FF5733`)
 - **RGB**: `rgb(255, 87, 51)`
 - **RGBA**: `rgba(255, 87, 51, 0.5)`
+
+---
+
+# 🧰 Git & GitHub
+
+## 📌 Git, GitHub
+
+**Git**: version control system  
+**GitHub**: hosting service for Git repositories  
+**Hosting**: service that allows you to publish your website on the internet
+
+---
+
+### ✅ Why Git?
+
+1. **Storing Versions**: keep track of changes to your code  
+2. **Collaboration**: work with other developers on the same project  
+3. **Backup**: keep a backup of your code  
+4. **Restoring Previous Version**: go back to a previous version of your code
+
+---
+
+### 🧱 Types of VCS
+
+1. **Local VCS**: stored on your local machine (rename v1, v2, v3, etc.)  
+2. **Centralized VCS**: stored on a central server  
+3. **Distributed VCS**: stored on multiple servers (can create multiple versions and sync with central server)
+
+---
+
+### ⚙️ Git
+
+Git is a **distributed version control system**.
+
+A Git project resides in three sections:
+
+1. **Working Directory**: where you work on your files  
+2. **Staging Area**: where you prepare your files for commit  
+3. **Git Directory / Repository**: where Git stores all the information about your project
+
+---
+
+## ⚔️ Git vs GitHub
+
+- **Git** is a version control system that allows you to track changes in your code and collaborate with other developers.  
+- **GitHub** is a hosting service for Git repositories that allows you to store your code online and collaborate.  
+- **Git** is a **command-line tool**, while **GitHub** is a **web-based platform** with a user interface.
+
+---
+
+## 🚀 Hosting on GitHub
+
+- Go to: `Settings > Pages > Branch: main (Save)`
+- GitHub auto-updates your site when you push changes.
+- Default entry file: `/index.html`  
+  If you use another file, manually add: `/filename.html`
+
